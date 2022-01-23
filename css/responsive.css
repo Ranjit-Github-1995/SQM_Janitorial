@@ -1,0 +1,615 @@
+/* Responsive css */
+
+/* Responsive nav css */
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 1024px) {
+    .main_head .navbar-nav .clickD {
+        position: absolute;
+        right: -5px;
+        top: 50%;
+        width: 10px;
+        height: 5px;
+        border-top: 5px solid #fff;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        cursor: pointer;
+        display: block;
+        background-size: 10px;
+        z-index: 9999;
+        transform: translateY(-50%);
+    }
+    .main_head ul.navbar-nav li .clickD+.sub-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+        position: absolute;
+        top: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+
+
+@media (max-width: 991px){
+
+    .left_nav{
+        float: left;
+        justify-content: left;
+        padding-left: 15px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .main_head .navbar-nav .clickD {
+        top: 25px;
+    }
+    .main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+        position: relative;
+        top: 100%;
+    }
+}
+
+
+/* Responsive nav end */
+
+@media (max-width: 1870px){
+
+    .newsLetter .right_round{
+        right: -65px;
+    }
+
+}
+
+@media (max-width: 1750px){
+
+    .home_slider img{
+        width: 100%;
+        height: 650px;
+    }
+    .home_slider .bottom_scroll img{
+        height: auto;
+    }
+    .newsLetter .right_round {
+        right: -80px;
+    }
+
+}
+
+@media (max-width: 1649px){
+
+    .home_slider .banner_cap{
+        margin-top: 0;
+        width: 65%;
+    }
+    .newsLetter .right_round {
+        right: -90px;
+    }
+    .fullImage{
+        padding-top: 55px;
+    }
+    .fullImage .leftCon{
+        width: 49%;
+        padding-right: 7px;
+    }
+
+}
+
+@media (min-width: 1550px) and (max-width: 1649px){
+
+    .newsLetter .right_round {
+        right: -100px;
+    }
+}
+
+@media (min-width: 1481px) and (max-width: 1549px){
+
+    .newsLetter .right_round {
+        right: -115px;
+    }
+}
+
+@media (max-width: 1480px){
+
+    .newsLetter .right_round {
+        right: -115px;
+    }
+    .fullImage .leftCon{
+        width: 40%;
+    }
+    .fullImage .leftCon h4{
+        font-size: 26px;
+        width: 100%;
+    }    
+
+}
+
+
+@media (max-width: 1399px){
+
+    .home_slider ul li .container .banner_cap h1{
+        line-height: 60px;
+        font-size: 45px;
+    }
+    .home_slider img{
+        height: 650px;
+        object-fit: cover;
+    }
+    .newsLetter .right_round{
+        right: -130px;
+    }
+    .serviceCom .outerArea p{
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 1299px){
+
+    .home_slider .banner_cap h1{
+        line-height: 60px;
+        font-size: 45px;
+    }
+    .home_slider img{
+        height: 600px;
+        object-fit: cover;
+    }
+    .fullImage .rihgtImage{
+        width: 55%;
+    }
+    .newsLetter a.btn{
+        margin-top: 35px;
+    }
+    .newsLetter .or{
+        margin: 11px 15px 0 10px;
+    }
+    .service .service_box .service_innerBox .btn_Box a.cln_btn{
+        padding: 6px 15px;
+    }
+    
+    
+
+}
+
+@media (max-width: 1199px){
+
+    .navbar .navbar-nav>li{
+        padding: 12px 11px;
+    }
+    .navbar li a{
+        padding: 0 12px;
+    }
+    .logo img{
+        width: 95%;
+    }
+    .home_slider ul li .container{
+        top: 15%;
+    }
+    .home_slider ul li .container .banner_cap p{
+        width: 50%;
+    }
+    .home_slider ul li .container .banner_cap h1{
+        width: 90%;
+        margin: 0px auto !important;
+        font-size: 40px;
+    }
+    .home_slider{
+        height: 430px;
+    }
+    .home_slider img{
+        height: 515px;
+    }
+    .service .service_box .service_innerBox .btn_Box a.cln_btn{
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+    .service .slick-prev{
+        left: -18px;
+    }
+    .service .slick-next{
+        top: 46%;
+        right: -36px;
+    }
+    .service .service_box .service_innerBox{
+        margin-bottom: 30px;
+    }
+    .serviceCom .outerArea h6{
+        font-size: 24px;
+    }
+    .serviceCom .outerArea p {
+        font-size: 20px;
+    }
+    .whY{
+        padding-top: 45px;
+    }
+    .whY .boX h6{
+        font-size: 17px;
+    }
+    .whY .boX::after{
+        right: -15%;
+    }
+    .newsLetter p.are{
+        font-size: 27px;
+    }
+    .newsLetter a.btn{
+        padding: 13px 10px;
+    }
+    .newsLetter .or {
+        margin: 32px 15px 0 10px;
+        width: 50px;
+        height: 50px;
+    }
+    .newsLetter p.caLL{
+        font-size: 17px;
+        padding-top: 35px;
+    }
+    .newsLetter span.number{
+        font-size: 16px;
+    }
+    .newsLetter .right_round{
+        height: 75px;
+        bottom: 40px;
+    }
+    .pl-15{
+        padding-left: 10px;
+    }
+    footer{
+        padding: 35px 0;
+    }
+    footer h6{
+        font-size: 16px;
+    }
+    footer ul.address li{
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul.address li .fa-phone-alt, .fa-envelope{
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+    footer ul.address li span{
+        padding-top: 4px;
+    }
+
+}
+
+@media (max-width: 991px){
+
+    .navbar li a{
+        color: #fff;
+    }
+    .navbar .navbar-nav>li{
+        padding: 12px 10px 0 10px !important;
+    }
+    .navbar li a{
+        border-right: none;
+    }
+    .green_bar .right_contact ul li{
+        flex-direction: column;
+    }
+    .green_bar .right_contact ul li .top_icon{
+        border: 0px;
+        padding-bottom: 5px;
+    }
+    .green_bar .right_side .top_icon2{
+        padding: 19px 12px;
+    }
+    .green_bar .right_side .btn{
+        font-size: 11px;
+        padding: 21px 6px;
+    }
+    .home_slider{
+        height: 345px;
+    }
+    .home_slider img{
+        height: 430px;
+    }
+    .home_slider ul li .container .banner_cap h1{
+        font-size: 32px;
+        line-height: 45px;
+        padding-bottom: 15px;
+    }
+    .home_slider ul li .container .banner_cap p{
+        width: 60%;
+    }
+    .home_slider ul li .container{
+        top: 15%;
+    }
+    .home_slider .bottom_scroll{
+        left: 41%;
+    }
+    .service{
+        padding-top: 30px;
+    }
+    h2{
+        font-size: 27px !important;
+    }
+    .fullImage .rihgtImage{
+        width: 100%;
+        float: none;
+    }
+    .fullImage .leftCon{
+        width: 100%;
+        padding-top: 30px;
+        padding-right: 0px;
+    }
+    .ourServices{
+        padding-top: 30px;
+    }
+    .serviceCom .outerArea{
+        margin-bottom: 15px;
+    }
+    .serviceCom{
+        margin-top: 30px;
+        padding: 30px 0 15px 0;
+    }
+    .whY .boX{
+        margin-bottom: 15px;
+    }
+    .whY .boX::after{
+        display: none;
+    }
+    .newsLetter p.are{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .newsLetter .right_round{
+        display: none;
+    }
+    .newsLetter a.btn{
+        margin: 25px 0px 15px 0;
+    }
+    .newsLetter .or span{
+        font-size: 18px;
+    }
+    .newsLetter .or{
+        margin: 32px 8px 0 10px;
+    }
+    .newsLetter span.number{
+        font-size: 15px;
+    }
+    .newsLetter{
+        margin-top: 30px;
+        padding: 20px 0;
+    }
+    .pl-15{
+        padding-left: 0px;
+    }
+    .pl-45{
+        padding-left: 0px;
+    }
+
+
+}
+
+@media (max-width: 767px){
+
+    .green_bar .right_contact{
+        justify-content: center;
+    }
+    .navbar li a{
+        color: #fff;
+    }
+    .navbar .navbar-nav>li{
+        padding: 12px 10px;
+    }
+
+    .home_slider img{
+        height: 450px;
+    }
+    .home_slider .banner_cap{
+        margin-top: 0;
+        width: 100%;
+    }
+    .home_slider .banner_cap h1{
+        width: 100%;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .home_slider .banner_cap h2{
+        font-size: 36px;
+        padding-bottom: 15px;
+    }
+    .green_bar{
+        padding-bottom: 5px;
+    }
+    .green_bar .right_side{
+        display: none;
+    }
+    .home_slider ul li .container .banner_cap h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .home_slider ul li .container .banner_cap p{
+        width: 80%;
+    }
+    .home_slider ul li .container{
+        top: 8%;
+    }
+    .ourServices .serMainbox .imgBox img{
+        width: 100%;
+        height: 100%;
+        min-height: auto;
+    }
+    .newsLetter .or {
+        margin: 30px 8px 0 30px;
+    }
+    .newsLetter p.caLL{
+        padding-top: 30px;
+    }
+    .service .slick-prev{
+        display: none !important;
+    }
+    .service .slick-next{
+        display: none !important;
+    }
+    .fullImage .rihgtImage img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .pl-15{
+        padding-left: 15px;
+    }
+    .pl-45{
+        padding-left: 15px;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 767px){
+
+    .service .service_box .service_innerBox .icon{
+        padding-top: 15px;
+    }
+    .service .service_box .service_innerBox h3{
+        font-size: 18px;
+        line-height: 24px;
+        min-height: 63px;
+    }
+    .service .service_box .service_innerBox .btn_Box{
+        flex-direction: column;
+    }
+    .service .service_box .service_innerBox .btn_Box a:first-child.cln_btn {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        margin: 0px auto 10px auto;
+    }
+    .service .service_box .service_innerBox .btn_Box a.cln_btn{
+        margin-bottom: 10px;
+    }
+    .service .slick-prev {
+        display: block !important;
+    }
+    .service .slick-next {
+        display: block !important;
+    }
+
+}
+
+@media (max-width: 575px){
+
+    .green_bar .right_contact{
+        justify-content: center;
+    }
+    .navbar li a{
+        color: #fff;
+    }
+    .navbar .navbar-nav>li{
+        padding: 12px 10px;
+    }
+    .home_slider img{
+        height: 400px;
+    }
+    .home_slider .banner_cap{
+        width: 100%;
+    }
+    .home_slider ul li .container .banner_cap h1{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .home_slider ul li .container .banner_cap p{
+        font-size: 14px;
+        line-height: 25px;
+        width: 95%;
+    }
+    .home_slider ul li .container .banner_cap a{
+        display: none;
+    }
+    .logo{
+        width: 88%;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .green_bar{
+        display: none;
+    }
+    .home_slider .slick-dots{
+        bottom: 35%;
+        right: 0;
+    }
+    .home_slider .bottom_scroll{
+        left: 30%;
+    }
+    .home_slider ul li .container{
+        top: 12%;
+    }
+    .home_slider ul li .container{
+        font-size: 17px;
+    }
+    .fullImage .leftCon h4{
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 12px;
+    }
+    .fullImage .leftCon p{
+        font-size: 14px;
+    }
+    .fullImage .leftCon h4.certi{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .ourServices .serMainbox .imgBox{
+        min-height: auto;
+    }
+    .serviceCom .outerArea{
+        padding: 15px 0;
+    }
+    .newsLetter p.are {
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .newsLetter .or{
+        display: none;
+    }
+    .newsLetter p.caLL{
+        display: none;
+    }
+    .newsLetter span.number{
+        display: none;
+    }
+    .newsLetter a.btn{
+        margin: 0px auto;
+        float: none;
+        display: table;
+        margin-top: 10px;
+    }
+    h2{
+        font-size: 22px !important;
+    }
+    h2::after{
+        left: 40% !important;
+    }
+    .service .service_box .service_innerBox {
+        margin-bottom: 10px;
+    }
+    footer .footer_logo p{
+        width: 100%;
+    }
+    footer h6{
+        padding-bottom: 10px;
+    }
+    
+
+}
+
+@media (min-width: 419px) and (max-width: 540px){
+
+    
+
+}
+
+@media (min-width: 541px) and (max-width: 575px){
+
+    
+
+}
+
